@@ -23,7 +23,6 @@ int main() {
     int colorCode;
     bool nameFound;
 
-    //colorKey.open("valuesandzips.txt");
     mapData.open("zipcodes.kml");
     combine.open("combine.kml");
 
@@ -44,7 +43,7 @@ int main() {
        } else {
            //If <name> is found, check it's value against the list
 
-           colorKey.open("valuesandzips.txt");
+           colorKey.open("examplezipdata.txt");
 
            while(colorKey) {
                nameFound = false;
