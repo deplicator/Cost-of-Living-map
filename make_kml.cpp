@@ -28,6 +28,8 @@ int main() {
 
     int howMany = 0;
     int count2 = 0;
+    
+    cout << "Please wait, this could take some time." << endl;
 
     while(mapData) {
        getline(mapData, temp);
